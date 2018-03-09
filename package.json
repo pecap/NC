@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "description": "nell console V-0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "git": "^0.1.5"
+  }
+}

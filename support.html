@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nell'console v 0.0.0</title>
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- custom css -->
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- container -->
+    <div class="container-fluid">
+      <!-- navbar -->
+      <div class="row">
+        <div class="col-md">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="http://www.nellarmonia.com/en/">
+                <img alt="Brand" src="img/nellarmonia.png" height="100%">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse">
+              <ul class="nav nav-pills nav-justified nav-color">
+                <li role="presentation"><a href="/">Home</a></li>
+                <li role="presentation"><a href="/settings">Settings</a></li>
+                <li role="presentation"><a href="/support">Contact Support</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      <!-- /.navbar -->
+      </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- container -->
+    <div class="container-fluid pull-left">
+      <div class="row">
+        <!-- sidebar -->
+        <div class="col-md-2">
+          <nav class="sidebar">
+              <div class="sidebar-header">
+                  <h3>Modules</h3>
+              </div>
+              <ul class="list-unstyled">
+                <li><a href="/subvars">Substitution Variables</a></li>
+              </ul>
+          </nav>
+        <!-- /.sidebar -->
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- container -->
+    <div class="container-fluid">
+      <!-- Main content -->
+      <div class="row">
+        <div class="col-md-8">
+          <!-- content form -->
+          <form>
+            <H1>Contact Support</H1>
+            <div class="form-group">
+              <div class="col-2 col-form-label">
+                <label for="inputContact">Contact: </label>
+              </div>
+              <div class="col-6">
+                <select class="form-control" id="inputContact">
+                  <option>Nicolas Mauras</option>
+                  <option>Yuval Anit</option>
+                  <option>Itay Yehezkelov</option>
+                  <option>Omer Wertheimer</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-2 col-form-label">
+                <label for="inputClient">User:</label>
+              </div>
+              <div class="col-6">
+                <select class="form-control" id="inputClient">
+                  <option>Elinor Reuven</option>
+                  <option>Danny Racotch</option>
+                  <option>Chen Gitait</option>
+                  <option>Ruth Wertheimer</option>
+                  <option>Noam Shalom</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-2 col-form-label">
+                <label for="inputIssue">Type of Issue: </label>
+              </div>
+              <div class="col-6">
+                <select class="form-control" id="inputClient">
+                  <option>Can't Log In</option>
+                  <option>Module not working</option>
+                  <option>Not authenticated by PBCS (401 error)</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-2 col-form-label">
+                <label for="inputDesc">Description: </label>
+              </div>
+              <div class="col-6 col-form-input">
+                 <textarea class="form-control" rows="5" id="inputDesc"></textarea>
+              </div>
+            </div>
+            <div class="col-4">
+              <button type="submit" class="btn btn-primary">Contact Consultant</button>
+            </div>
+          </form>
+          <!-- /.content form -->
+        </div>
+      </div>
+    </div>
+    <!-- /.Container -->
+
+    <!-- clear float -->
+    <div class="clearfix"></div>
+
+    <!-- container -->
+
+      <!--Footer-->
+      <div class="container-fluid">
+        <footer class="footer text-center">
+          © 2018 Copyright:
+          <a href="http://www.nellarmonia.com/en/"> Nell'armonia.com </a>
+        </footer>
+      </footer>
+      <!--/.Footer-->
+    <!-- /.container -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
